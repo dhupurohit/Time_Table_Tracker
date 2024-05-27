@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    tools:ignore="MissingClass">
+
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="310dp"
+        android:layout_height="410dp"
+        android:layout_gravity="center"
+        android:backgroundTint="#ECE3CE"
+        app:cardCornerRadius="30dp"
+        android:layout_marginTop="150dp">
+
+        <EditText
+            android:id="@+id/ediemail"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="100dp"
+            android:ems="10"
+            android:hint="Email"
+            android:padding="8dp"
+            android:inputType="textPersonName"
+            android:textColor="#2F5233"
+            android:textColorHint="#2F5233"
+            android:drawableLeft="@drawable/user"
+            android:drawablePadding="4dp"
+            android:background="@drawable/custom_effect"
+            android:textColorLink="#2F5233"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edipas"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:ems="10"
+            android:layout_marginBottom="40dp"
+            android:hint="Password"
+            android:drawableLeft="@drawable/password"
+            android:drawablePadding="4dp"
+            android:background="@drawable/custom_effect"
+            android:inputType="textPassword"
+            android:padding="8dp"
+            android:textColorHint="#2F5233"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnlogin"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/custom_btn"
+            android:text="Log In"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+
+    </android.support.v7.widget.CardView>
+
+
+
+
+
+
+
+</android.support.v7.widget.LinearLayoutCompat>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Time_Table_Tracker</string>
+    <string name="aboutUs"> The <b>Time Table Tracker (TTT)</b> is the process of creating and maintaining efficient schedules, it plays a vital role in ensuring smooth operations within various environments.
+
+        One of the main benefits of using a time table tracker is that it can improve organisation and time management by giving users a visual depiction of their schedule, including their classes. It can also assist to minimise disputes and simplify things.
+    </string>
+</resources>

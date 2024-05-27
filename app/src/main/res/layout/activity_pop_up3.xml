@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="530dp"
+    android:background="#ECE3CE"
+    android:orientation="vertical"
+    android:layout_gravity="center">
+
+    <TextView
+        android:id="@+id/close_btn3"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:text="X"
+        android:textSize="20dp"
+        android:textColor="#2F5233"
+        android:layout_gravity="end"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:background="@drawable/pop_shape"
+        android:layout_margin="10dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/hemang"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name : Hemang Dodiya"
+            android:textColor="#2F5233"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:textSize="25dp"
+            android:layout_gravity="start"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="En No : 235370694015"
+            android:textColor="#2F5233"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:padding="10dp"
+            android:layout_gravity="start"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email : hemangdodiya3511@gmail.com"
+            android:textColor="#2F5233"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:textSize="25dp"
+            android:layout_gravity="start"
+            android:layout_marginTop="10dp" />
+
+    </LinearLayout>
+
+</android.support.v7.widget.LinearLayoutCompat>
